@@ -1,2 +1,2 @@
 # admindashboard
-final CSS project of TheOdinProject
+This is the final task of the CSS section within TheOdinProject.
