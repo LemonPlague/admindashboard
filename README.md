@@ -1,4 +1,4 @@
-# admindashboard
+# admin dashboard
 This is the final task of the CSS section within TheOdinProject.
 
 # css grid
