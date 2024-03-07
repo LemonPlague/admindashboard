@@ -1,0 +1,28 @@
+/* remove default styles */
+
+* {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* custom variables */
+
+:root {
+    --primaryColor: rgb(8, 117, 207);
+}
+
+/* full page styles & texts */
+
+body {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2fr, 8fr;
+}
+
+.sideboard {
+    display: grid;
+    grid-template-rows: 1fr, 3fr, 2fr;
+    color: white;
+    background-color: var(--primaryColor);
+}
