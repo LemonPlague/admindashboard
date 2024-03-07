@@ -4,6 +4,7 @@
     border: none;
     padding: 0;
     margin: 0;
+    list-style: none;
 }
 
 /* custom variables */
@@ -17,12 +18,22 @@
 body {
     background-color: white;
     display: grid;
-    grid-template-columns: 2fr, 8fr;
+    grid-template-columns: 2.5fr 9fr;
 }
 
+/* sideboard */
+
 .sideboard {
+    padding: 15px;
+    grid-column: 1/2;
     display: grid;
-    grid-template-rows: 1fr, 3fr, 2fr;
+    grid-template-rows: 1fr 3fr 2fr;
     color: white;
     background-color: var(--primaryColor);
+}
+
+/* main */
+
+.main {
+    grid-column: 2/8;
 }
