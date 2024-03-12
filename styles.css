@@ -49,6 +49,8 @@ body {
 
 .header {
     padding: 15px 40px 15px 40px;
+    display: grid;
+    grid-template-columns: 5fr 3fr;
 }
 
 .page-topper {
