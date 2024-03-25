@@ -59,7 +59,8 @@ body {
 .search {
     display: grid;
     grid-template-columns: 20px 1fr;
-    
+    align-items: center;
+    gap: 10px;
 }
 
 .search input {
@@ -87,13 +88,24 @@ body {
     color: black;
 }
 
-.user-icon img {
+.user-icon img, .left img {
     border-radius: 50px;
 }
 
-.page-topper {
-    padding: 15px;
+.page-topper {    
+    padding: 15px 40px 15px 40px;
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    align-content: center;
+    align-items: center;
 }
+
+.page-topper .left {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    align-items: center;
+}
+
 
 .main {
     grid-column: 2/8;
