@@ -11,6 +11,7 @@
 
 :root {
     --primaryColor: rgb(8, 117, 207);
+    --offWhiteColor: rgb(207, 207, 207);
 }
 
 /* full page styles & texts */
@@ -51,10 +52,31 @@ body {
     padding: 15px 40px 15px 40px;
     display: grid;
     grid-template-columns: 5fr 3fr;
+    align-content: center;
+    align-items: center;
+}
+
+.notifications {
+    display: grid;
+    grid-template-columns: 30px 50px 100px;
+    align-items: center;
 }
 
 .notifications a {
     text-decoration: none;
+    color: black;
+}
+
+.search input {
+    background-color: var(--offWhiteColor);
+    border-radius: 25px;
+    padding-left: 8px;
+    height: 25px;
+}
+
+.search input::placeholder {
+    padding-left: 10px;
+    color: rgb(124, 124, 124);
 }
 
 .user-icon img {
