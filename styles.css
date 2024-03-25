@@ -47,6 +47,9 @@ body {
 
 
 /* main */
+.main {
+    grid-column: 2/8;
+}
 /* header */
 
 .header {
@@ -55,6 +58,7 @@ body {
     grid-template-columns: 5fr 3fr;
     align-content: center;
     align-items: center;
+    z-index: 4;
 }
 
 .search {
@@ -103,6 +107,8 @@ body {
     grid-template-columns: 5fr 3fr;
     align-content: center;
     align-items: center;
+    box-shadow: 3px 3px 3px rgb(94, 93, 93);
+    z-index: 10;
 }
 
 .page-topper .left {
@@ -128,6 +134,14 @@ body {
 
 /* main content */
 
-.main {
-    grid-column: 2/8;
+.focus-area {
+    padding: 30px 10px 40px 10px;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    background-color: var(--offWhiteColor);
+    z-index: 1;
+}
+
+.projects, .announcements-trending p {
+    font-weight: bold;
 }
