@@ -56,15 +56,10 @@ body {
     align-items: center;
 }
 
-.notifications {
+.search {
     display: grid;
-    grid-template-columns: 30px 50px 100px;
-    align-items: center;
-}
-
-.notifications a {
-    text-decoration: none;
-    color: black;
+    grid-template-columns: 20px 1fr;
+    
 }
 
 .search input {
@@ -72,11 +67,24 @@ body {
     border-radius: 25px;
     padding-left: 8px;
     height: 25px;
+    width: clamp(150px, 30vw, 500px);
 }
 
 .search input::placeholder {
     padding-left: 10px;
     color: rgb(124, 124, 124);
+}
+
+.notifications {
+    display: grid;
+    grid-template-columns: 30px 50px 100px;
+    align-items: center;
+    justify-content: end;
+}
+
+.notifications a {
+    text-decoration: none;
+    color: black;
 }
 
 .user-icon img {
