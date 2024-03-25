@@ -78,9 +78,11 @@ body {
 
 .notifications {
     display: grid;
-    grid-template-columns: 30px 50px 100px;
+    grid-template-columns: 30px 50px 70px;
+    gap: 10px;
     align-items: center;
     justify-content: end;
+    justify-items: center;
 }
 
 .notifications a {
@@ -106,6 +108,20 @@ body {
     align-items: center;
 }
 
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 70px);
+    gap: 20px;
+    justify-content: center;
+}
+
+.buttons button {
+    padding: 7px 20px 7px 20px;
+    border-radius: 50px;
+    background-color: var(--primaryColor);
+    color: white;
+    text-align: center;
+}
 
 .main {
     grid-column: 2/8;
