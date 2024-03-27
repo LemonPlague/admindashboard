@@ -208,6 +208,7 @@ body {
 }
 
 /* main content */
+/* cards */
 
 .focus-area {
     padding: 30px 20px 40px 20px;
@@ -222,6 +223,7 @@ body {
 }
 
 .cards {
+    padding-top: 10px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -234,4 +236,58 @@ body {
     background-color: white;
     border-radius: 10px;
     padding: 30px 20px 30px 20px;
+}
+
+
+/* announcements */
+
+.announcements {
+    padding-top: 10px;
+}
+
+.announcements-container {
+    padding: 15px 15px 15px 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.announcement {
+    padding: 15px 15px 15px 15px;
+}
+
+.announcement p {
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.announcement h4 {
+    font-size: 16px;
+}
+
+/* trending */
+.announcements-trending p:nth-of-type(2) {
+    margin-top: 30px;
+}
+
+.trending {
+    padding-top: 10px;
+}
+
+.trending-container {
+    padding: 15px 15px 15px 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.trend {
+    padding: 15px 15px 15px 15px;
+}
+
+.trend p {
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.trend h4 {
+    font-size: 16px;
 }
